@@ -1,0 +1,44 @@
+Running simulation with parameters: {'task': 'task_mlfq', 'data_files': '', 'num_servers': 2, 'num_queues': 2, 'allocation': 'linear', 'lambda': 0.6, 'cdf': <includes.functions.BoundedPareto object at 0x000001E7E7C0DF60>, 'sim_time': 166666, 'results_folder': './sim_results/N2-unequal-split-many-servers/task_mlfq_K2_N2_l0.6_ws_bp_PS_cut_0.85/', 'seed': 0, 'postfix': '', 'thresholds': [2403.0], 'cut_threshold': 0.85, 'disc': 'PS', 'debug': False, '_lambda': 0.6, 'cdf_name': 'ws_bp', 'task_f': <function task_mlfq at 0x000001E7E7C94790>} (lambda=0.6)
+Server #0: [(0, 2403.0)(2403.0, 29199.999999999945)]
+Connecting PQ 0 to PQ 1..
+Server #1: [(0, 2403.0)(2403.0, 29199.999999999945)]
+Connecting PQ 0 to PQ 1..
+Simulation at 10%
+-- queue sizes --
+0: [0, 0]
+1: [0, 0]
+Simulation at 20%
+-- queue sizes --
+0: [0, 0]
+1: [0, 0]
+Simulation at 30%
+-- queue sizes --
+0: [0, 0]
+1: [0, 0]
+Simulation at 40%
+-- queue sizes --
+0: [0, 0]
+1: [0, 0]
+Simulation at 50%
+-- queue sizes --
+0: [0, 0]
+1: [0, 3]
+Simulation at 60%
+-- queue sizes --
+0: [0, 10]
+1: [0, 0]
+Simulation at 70%
+-- queue sizes --
+0: [0, 0]
+1: [0, 3]
+Simulation at 80%
+-- queue sizes --
+0: [0, 0]
+1: [0, 0]
+Simulation at 90%
+-- queue sizes --
+0: [0, 0]
+1: [0, 0]
+time idle: [66802.20542421588, 66399.51576802402]
+measured loads: [0.5991851641953615, 0.6016013117971031]
+average load: 0.6003932379962322

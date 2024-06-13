@@ -1,0 +1,14 @@
+certifi==2019.11.28
+cycler==0.10.0
+kiwisolver
+matplotlib
+numpy
+pandas
+pyparsing==2.4.6
+pyswarm==0.6
+python-dateutil==2.8.1
+pytz==2019.3
+scipy
+seaborn
+simpy
+six==1.14.0

@@ -1,0 +1,92 @@
+Running simulation with parameters: {'task': 'task_sd_mlfq_hybrid', 'data_files': '', 'num_servers': 4, 'num_queues': 2, 'allocation': 'linear', 'lambda': 0.5, 'cdf': <includes.functions.BoundedPareto object at 0x0000021E29EADF60>, 'sim_time': 200000, 'results_folder': './sim_results/N2-unequal-split-many-servers/task_sd_mlfq_hybrid_K4_N2_l0.5_ws_bp_PS_cut_0.85/', 'seed': 0, 'postfix': '', 'thresholds': [17.72343357, 226.69631179, 1083.81642369, 3115.8917344692445], 'cut_threshold': 0.85, 'disc': 'PS', 'debug': False, '_lambda': 0.5, 'cdf_name': 'ws_bp', 'task_f': <function task_sd_mlfq_hybrid at 0x0000021E29F34940>} (lambda=0.5)
+Thresholds: [0, 17.72343357, 226.69631179, 1083.81642369, 3115.8917344692445, 29199.999999999945]
+Priority ranges: {0: (0, 17.72343357), 4: (3115.8917344692445, 29199.999999999945), 1: (17.72343357, 226.69631179), 2: (226.69631179, 1083.81642369), 3: (1083.81642369, 3115.8917344692445)}
+PQ0 mapped to Q0 on server 0
+Calculating load balance probabilities for range [0, 17.72343357]
+Load in server 0 (no elephants): 14.896811922292356
+Elephant load: 1197.7122429521532
+Average load: 1938.1182691264403
+Server #0: [(0, 17.72343357)(3115.8917344692445, 29199.999999999945)]
+PQ1 mapped to Q0 on server 1
+Calculating load balance probabilities for range [17.72343357, 226.69631179]
+Load in server 1 (no elephants): 100.12573407178878
+Elephant load: 1197.7122429521532
+Average load: 1938.1182691264403
+Server #1: [(17.72343357, 226.69631179)(3115.8917344692445, 29199.999999999945)]
+PQ2 mapped to Q0 on server 2
+Calculating load balance probabilities for range [226.69631179, 1083.81642369]
+Load in server 2 (no elephants): 249.56139934341897
+Elephant load: 1197.7122429521532
+Average load: 1938.1182691264403
+Server #2: [(226.69631179, 1083.81642369)(3115.8917344692445, 29199.999999999945)]
+PQ3 mapped to Q0 on server 3
+Calculating load balance probabilities for range [1083.81642369, 3115.8917344692445]
+Load in server 3 (no elephants): 375.822080836787
+Elephant load: 1197.7122429521532
+Average load: 1938.1182691264403
+Server #3: [(1083.81642369, 3115.8917344692445)(3115.8917344692445, 29199.999999999945)]
+Load balance probabilities: [0.39210816965664, 0.3209484043198326, 0.19618081832330214, 0.09076260770022518]
+Connecting PQ 0 to PQ 1..
+Connecting PQ 1 to PQ 2..
+Connecting PQ 2 to PQ 3..
+Connecting PQ3 to Q1 on server 0..
+Connecting PQ3 to Q1 on server 1..
+Connecting PQ3 to Q1 on server 2..
+Connecting PQ3 to Q1 on server 3..
+Simulation at 10%
+-- queue sizes --
+0: [0, 0]
+1: [0, 0]
+2: [0, 0]
+3: [0, 0]
+Simulation at 20%
+-- queue sizes --
+0: [0, 0]
+1: [0, 0]
+2: [0, 0]
+3: [0, 0]
+Simulation at 30%
+-- queue sizes --
+0: [0, 0]
+1: [0, 0]
+2: [0, 3]
+3: [0, 0]
+Simulation at 40%
+-- queue sizes --
+0: [0, 0]
+1: [0, 0]
+2: [0, 0]
+3: [0, 0]
+Simulation at 50%
+-- queue sizes --
+0: [0, 0]
+1: [0, 0]
+2: [0, 1]
+3: [0, 0]
+Simulation at 60%
+-- queue sizes --
+0: [0, 0]
+1: [0, 0]
+2: [0, 0]
+3: [0, 0]
+Simulation at 70%
+-- queue sizes --
+0: [0, 0]
+1: [0, 0]
+2: [0, 0]
+3: [0, 0]
+Simulation at 80%
+-- queue sizes --
+0: [0, 0]
+1: [0, 0]
+2: [0, 0]
+3: [0, 0]
+Simulation at 90%
+-- queue sizes --
+0: [0, 0]
+1: [0, 0]
+2: [0, 0]
+3: [0, 0]
+time idle: [97831.1582189961, 99625.92017824994, 99301.17815495416, 101611.72383167155]
+measured loads: [0.5108442089050195, 0.5018703991087503, 0.5034941092252292, 0.4919413808416423]
+average load: 0.5020375245201604

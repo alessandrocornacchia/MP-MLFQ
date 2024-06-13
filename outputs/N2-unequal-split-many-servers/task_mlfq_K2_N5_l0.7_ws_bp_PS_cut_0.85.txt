@@ -1,0 +1,50 @@
+Running simulation with parameters: {'task': 'task_mlfq', 'data_files': '', 'num_servers': 2, 'num_queues': 5, 'allocation': 'linear', 'lambda': 0.7, 'cdf': <includes.functions.BoundedPareto object at 0x000001FA67B61F60>, 'sim_time': 142857, 'results_folder': './sim_results/N2-unequal-split-many-servers/task_mlfq_K2_N5_l0.7_ws_bp_PS_cut_0.85/', 'seed': 0, 'postfix': '', 'thresholds': [15.51006401633511, 346.81182732018493, 2529.222566017736, 9814.235638299515], 'cut_threshold': 0.85, 'disc': 'PS', 'debug': False, '_lambda': 0.7, 'cdf_name': 'ws_bp', 'task_f': <function task_mlfq at 0x000001FA67BE4790>} (lambda=0.7)
+Server #0: [(0, 15.51006401633511)(15.51006401633511, 346.81182732018493)(346.81182732018493, 2529.222566017736)(2529.222566017736, 9814.235638299515)(9814.235638299515, 29199.999999999945)]
+Connecting PQ 0 to PQ 1..
+Connecting PQ 1 to PQ 2..
+Connecting PQ 2 to PQ 3..
+Connecting PQ 3 to PQ 4..
+Server #1: [(0, 15.51006401633511)(15.51006401633511, 346.81182732018493)(346.81182732018493, 2529.222566017736)(2529.222566017736, 9814.235638299515)(9814.235638299515, 29199.999999999945)]
+Connecting PQ 0 to PQ 1..
+Connecting PQ 1 to PQ 2..
+Connecting PQ 2 to PQ 3..
+Connecting PQ 3 to PQ 4..
+Simulation at 10%
+-- queue sizes --
+0: [0, 0, 0, 0, 0]
+1: [0, 0, 0, 0, 0]
+Simulation at 20%
+-- queue sizes --
+0: [0, 0, 0, 0, 0]
+1: [0, 0, 0, 0, 0]
+Simulation at 30%
+-- queue sizes --
+0: [0, 0, 0, 0, 0]
+1: [0, 0, 0, 0, 0]
+Simulation at 40%
+-- queue sizes --
+0: [0, 0, 0, 0, 0]
+1: [0, 0, 0, 0, 1]
+Simulation at 50%
+-- queue sizes --
+0: [0, 0, 0, 0, 0]
+1: [0, 0, 0, 2, 1]
+Simulation at 60%
+-- queue sizes --
+0: [0, 0, 0, 5, 9]
+1: [0, 0, 0, 0, 0]
+Simulation at 70%
+-- queue sizes --
+0: [0, 0, 0, 0, 1]
+1: [0, 0, 0, 1, 3]
+Simulation at 80%
+-- queue sizes --
+0: [0, 0, 0, 0, 0]
+1: [0, 0, 0, 0, 0]
+Simulation at 89%
+-- queue sizes --
+0: [0, 0, 0, 0, 1]
+1: [0, 0, 0, 0, 0]
+time idle: [42996.72255713465, 42592.74152903016]
+measured loads: [0.6990226411226985, 0.7018505111473]
+average load: 0.7004365761349993

@@ -1,0 +1,58 @@
+Running simulation with parameters: {'task': 'task_sd_mlfq_hybrid', 'data_files': '', 'num_servers': 2, 'num_queues': 2, 'allocation': 'linear', 'lambda': 0.6, 'cdf': <includes.functions.BoundedPareto object at 0x0000020DA30BDF60>, 'sim_time': 166666, 'results_folder': './sim_results/N2-unequal-split-many-servers/task_sd_mlfq_hybrid_K2_N2_l0.6_ws_bp_PS_cut_0.85/', 'seed': 0, 'postfix': '', 'thresholds': [323.70640492, 3115.8917344692445], 'cut_threshold': 0.85, 'disc': 'PS', 'debug': False, '_lambda': 0.6, 'cdf_name': 'ws_bp', 'task_f': <function task_sd_mlfq_hybrid at 0x0000020DA3144940>} (lambda=0.6)
+Thresholds: [0, 323.70640492, 3115.8917344692445, 29199.999999999945]
+Priority ranges: {0: (0, 323.70640492), 2: (3115.8917344692445, 29199.999999999945), 1: (323.70640492, 3115.8917344692445)}
+PQ0 mapped to Q0 on server 0
+Calculating load balance probabilities for range [0, 323.70640492]
+Load in server 0 (no elephants): 150.7684204435383
+Elephant load: 1197.7122429521532
+Average load: 1938.1182691264403
+Server #0: [(0, 323.70640492)(3115.8917344692445, 29199.999999999945)]
+PQ1 mapped to Q0 on server 1
+Calculating load balance probabilities for range [323.70640492, 3115.8917344692445]
+Load in server 1 (no elephants): 589.6376057307489
+Elephant load: 1197.7122429521532
+Average load: 1938.1182691264403
+Server #1: [(323.70640492, 3115.8917344692445)(3115.8917344692445, 29199.999999999945)]
+Load balance probabilities: [0.6832114466015117, 0.3167885533984882]
+Connecting PQ 0 to PQ 1..
+Connecting PQ1 to Q1 on server 0..
+Connecting PQ1 to Q1 on server 1..
+Simulation at 10%
+-- queue sizes --
+0: [0, 0]
+1: [0, 0]
+Simulation at 20%
+-- queue sizes --
+0: [0, 0]
+1: [0, 1]
+Simulation at 30%
+-- queue sizes --
+0: [0, 0]
+1: [0, 0]
+Simulation at 40%
+-- queue sizes --
+0: [0, 0]
+1: [0, 0]
+Simulation at 50%
+-- queue sizes --
+0: [0, 0]
+1: [0, 0]
+Simulation at 60%
+-- queue sizes --
+0: [0, 0]
+1: [0, 0]
+Simulation at 70%
+-- queue sizes --
+0: [0, 1]
+1: [0, 0]
+Simulation at 80%
+-- queue sizes --
+0: [0, 0]
+1: [0, 0]
+Simulation at 90%
+-- queue sizes --
+0: [0, 0]
+1: [0, 0]
+time idle: [66673.26175819561, 66892.83299219163]
+measured loads: [0.5999588292861435, 0.5986413966124366]
+average load: 0.5993001129492901
