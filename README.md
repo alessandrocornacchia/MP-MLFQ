@@ -2,9 +2,9 @@
 
 The repository is intended for reproducibility of the evaluation artifacts described in the research paper:
 
-:spiral_notepad: A “Big-Spine” Abstraction: Flow Prioritization
-With Spatial Diversity in The Data Center Network  
-Cornacchia A., Bianco A, Giaccone P, Sviridov G,  
+:spiral_notepad: [A “Big-Spine” Abstraction: Flow Prioritization
+With Spatial Diversity in The Data Center Network](https://iris.polito.it/handle/11583/2989653)  
+Alessandro Cornacchia, Andrea Bianco, Paolo Giaccone, German Sviridov  
 *IEEE HPSR Workshop on Data-Plane Programmability and Edge Network
 Acceleration in the AI Era, 2024*
 
